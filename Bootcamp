@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page Bootcamp 1 May</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <em>This is emphasized text</em>
+    <p>Hello!</p>
+    <button onclick="show()">Submit</button>
+
+    <div id="content" style="color: red;">
+
+    </div>
+
+    <h1>Todo List</h1>
+    <ol>
+        <li>Go to College</li>
+        <li>Do Homework</li>
+        <li>Buy Groceries</li>
+    </ol>
+
+
+    <a href="https://www.youtube.com" target="_blank">Go to YouTube Website</a>
+
+    <input type="text" placeholder="Enter Username">
+
+    <div >
+        <h1 id="main-heading">Heading 1</h1>
+    </div>
+    
+    <div class="main-div">
+        <h1>Heading 2</h1>
+    </div>
+    <div class="main-div">
+        <h1>Heading 3</h1>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+Raw
+script.js
+// console.log("Hello World!");
+
+// var a = 20;
+// var b = 30;
+
+// console.log("Addition of a and b is ", a+b);
+
+// console.warn("Warning code is failed");
+
+// console.error("Error at line no 10");
+
+// Below line is to alert to website user
+//alert("Welcome to Bootcamp");
+
+
+// var num1 = 44;
+// var num2 = 22;
+
+// var ans = num1 + num2;
+
+// document.write(ans);
+
+
+// var name1 = true;
+// document.write(name1);
+
+
+
+// function show(){
+//     document.getElementById('content').innerHTML = "Form is Submitted";
+// }
+
+// let name2  = "Mudassir";
+
+// {
+//     let name2  = "Mudassir1";
+//     console.log('inside block', name2);
+// }
+
+
+// console.log('outside block', name2);
+
+
+// const pie  = 3.14;
+
+// pie  = 34;
+Raw
+style.css
+div{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin-top: 10px;
+}
+
+
+button{
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: azure;
+    color: red;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+#main-heading{
+    color: yellow;
+}
+
+.main-div{
+    border-radius: 8px;
+
