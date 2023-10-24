@@ -1,7 +1,6 @@
 - 👋 Hi, I’m @KOMAL8378
 - 👀 I’m interested in JAVA coding
 - 🌱 I’m taking training in FULLSTACK JAVA 
-- 💞️ I’m looking to collaborate on MNC
 - 📫 How to reach me komalaher175@gmail.com
 
 <!---
